@@ -36,6 +36,8 @@ if len(guess) == 5:
         if instance > 1:
             print(str(instance) + " instances of " + char + " found in " + guess)
     else:
-        print("Error: Character must be a single character")
+        print("Error: Character must be a single character.")
+        exit()
 else:
-    print("Error: Word must contain 5 letters")
+    print("Error: Word must contain 5 characters")
+    exit()
